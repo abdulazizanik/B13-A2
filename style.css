@@ -1,0 +1,59 @@
+/*shered styles*/
+
+
+
+.font-open-sans{
+    font-family: 'Open Sans', sans-serif;
+   font-optical-sizing: auto;
+}
+
+.logo h2{
+    font-size: 25px;
+}
+.color.white{
+    color: #ffffff;
+}
+
+
+.color.linear{
+  background: linear-gradient(90deg, #b913fa, #fb09b4, #cac02c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn{
+    background: linear-gradient(90deg, #b913fa, #fb09b4, #cac02c);
+    border: none;
+    padding: 12px 16px;
+    border-radius: 10000px;
+    font-size: 16px;
+    font-weight: semi-bold;
+    color: white;
+}
+
+/*main style*/
+
+header{
+    background-color: #2a186c;
+}
+nav{
+    width: 100%;
+    max-width: 1600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;
+    padding: 20px 5%;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 30px; ;
+}
+
+nav ul li a {
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+}
